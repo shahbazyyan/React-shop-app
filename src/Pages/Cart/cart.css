@@ -1,0 +1,105 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+    border-radius: 25px;
+    margin: 30px;
+}
+
+.cartItem img {
+    width: 200px;
+}
+
+.cartItem .description {
+    width: 100%;
+    font-size: 30px;
+}
+
+/* CSS stylesheet */
+.minusButton {
+
+    background-color: #ff5733;
+    color: white; 
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .plusButton {
+    background-color: #33ff57; 
+    color: white; 
+    border: none;
+    padding: 5px 9px;
+    cursor: pointer;
+  }
+
+  .countHandler {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .stateInput{
+    text-align: center;
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc; /* Example border */
+  }
+  
+.checkout {
+    width: 150px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy {
+    background-color:  #000;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.buy:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+.continue {
+    background-color:  #000;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.continue:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}

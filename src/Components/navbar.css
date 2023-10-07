@@ -7,6 +7,18 @@
     align-items: center;
 }
 
+.navbar .logo a{
+    align-self: center;
+    margin-right: 880px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+.navbar .logo :hover {
+    background-color: #333;
+    border-radius: 7px;
+  }
+
 .links {
     margin-right: 50px;
     display: flex;
