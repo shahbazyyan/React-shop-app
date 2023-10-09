@@ -9,23 +9,30 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr .5fr 1fr;
     place-items: center;
+    position: relative;
   }
   
   .product {
     border-radius: 15px;
     width: 130px;
-    height: 180px;
-    margin: 130px;
+    height: 200px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   
   .product img {
-    width: 300px;
+    width: 120px;
+    overflow: hidden;
+  }
+
+  .product img:hover {
+    opacity: .8;
   }
   
   .product .description {

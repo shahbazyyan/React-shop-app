@@ -1,30 +1,31 @@
 .cart {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     justify-self: center;
     align-items: center;
 }
 
 .cartItem {
-    width: 700px;
-    height: 250px;
+    width: 600px;
+    height: 200px;
     display: flex;
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
     border-radius: 25px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .cartItem img {
-    width: 200px;
+    width: 150px;
+  
 }
 
 .cartItem .description {
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
 }
 
-/* CSS stylesheet */
 .minusButton {
 
     background-color: #ff5733;

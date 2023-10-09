@@ -11,7 +11,7 @@ function Shopping() {
                 <h1>My React Shop</h1>
             </div>
             <div className="products">
-               {ITEMS.map((item) => (
+            {ITEMS.map((item) => (
                <Product data={item} />
                ))}
             </div>
