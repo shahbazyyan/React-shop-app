@@ -1,12 +1,12 @@
 import notebook from "./itemsIMGs/asus.png";
 import canon from "./itemsIMGs/canon.png";
 import iPhone from "./itemsIMGs/iphone.png";
-import ssd from "./itemsIMGs/ssd.webp";
 import jacket from "./itemsIMGs/jacket.png";
 import t_shirt from "./itemsIMGs/t_shirt.png";
-import switer from "./itemsIMGs/switer.jpg";
 import hat from "./itemsIMGs/hat.webp";
-import shoes from "./itemsIMGs/shose.png";
+import shoes from "./itemsIMGs/shoes.png"
+import switer from "./itemsIMGs/switer.png";
+import ssd from "./itemsIMGs/ssd.png";
 
 const ITEMS = [
 {

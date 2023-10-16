@@ -4,6 +4,9 @@ import Navbar from './Components/Navbar';
 import Shopping from './Pages/Shopping/Shopping';
 import Cart from './Pages/Cart/Cart';
 import ContextShop from './context/ContextShop';
+import Slider from './Components/slider/Slider';
+import { Sliders } from 'phosphor-react';
+import { SliderData } from './Components/slider/sliderData';
 
 
 function App() {

@@ -26,8 +26,8 @@ function Cart() {
       </div>
       <div className="checkout">
         <p>Total: {totalAmount}$ </p>
-        <button className='continue' onClick={(() => navigate("/"))}>Shopping</button>
-        <button className='buy'>Checkout</button>
+        <button className='continue' onClick={(() => navigate("/"))}>Go back</button>
+        <button className='buy'>Buy Now</button>
       </div>
     </div>
   )
